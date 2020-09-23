@@ -1,0 +1,307 @@
+[Root]
+Most Recent Package=DANA JAMINAN
+
+
+[Package|Dana Jaminan|DepFile]
+DepCabFile=Dana Jaminan.CAB
+DepCabRun=Dana Jaminan.INF
+
+
+[Package|DANA JAMINAN|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\setup
+
+[Package|DANA JAMINAN|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|DANA JAMINAN|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|DANA JAMINAN|Files Found]
+
+[Package|DANA JAMINAN|Files Released]
+u25TOTAL.DLL=
+u25STORE.DLL=
+p2SIFMX.DLL=
+p2BXBSE.DLL=
+p2BBND.DLL=
+p2BBDE.DLL=
+Crystal=
+
+[Package|DANA JAMINAN|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\Msstdfmt.dll=
+
+[Package|DANA JAMINAN|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\Msmask32.ocx=
+C:\WINDOWS\system32\Mscomct2.ocx=
+C:\WINDOWS\system32\Tabctl32.ocx=
+C:\WINDOWS\system32\Richtx32.ocx=
+C:\WINDOWS\system32\Mscomctl.ocx=
+
+[Package|DANA JAMINAN|Files Added]
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Log.LDF=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Data.MDF=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminandeveloper.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminannotaris.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN DEVELOPER PERTANGGAL.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN NOTARIS PERTANGGAL.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REGISTER REALISASI DAN MONITORING.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN DEVELOPER.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN NOTARIS.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA APHT YANG BELUM DIBAYAR.rpt=
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA NOTARIS YANG BELUM DIBAYAR.rpt=
+
+[Package|DANA JAMINAN|Files Removed]
+
+[Package|DANA JAMINAN|Files In Project]
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Dana Jaminan.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\Asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msstdfmt.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\Msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\Msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\crystl32.ocx=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\system32\implode.dll=Yes
+C:\WINDOWS\system32\crpaig32.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\Crystal\crxlat32.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\system32\p2smon.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\Crystal\p2sora7.dll=Yes
+C:\WINDOWS\Crystal\p2ssql.dll=Yes
+C:\WINDOWS\Crystal\p2ssyb10.dll=Yes
+C:\WINDOWS\Crystal\p2soledb.dll=Yes
+C:\WINDOWS\Crystal\u2ddisk.dll=Yes
+C:\WINDOWS\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS\Crystal\u2dnotes.dll=Yes
+C:\WINDOWS\Crystal\u2dpost.dll=Yes
+C:\WINDOWS\Crystal\u2dvim.dll=Yes
+C:\WINDOWS\Crystal\u2dapp.dll=Yes
+C:\WINDOWS\Crystal\u2fcr.dll=Yes
+C:\WINDOWS\Crystal\u2fhtml.dll=Yes
+C:\WINDOWS\Crystal\u2fodbc.dll=Yes
+C:\WINDOWS\Crystal\u2frec.dll=Yes
+C:\WINDOWS\Crystal\u2frtf.dll=Yes
+C:\WINDOWS\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS\Crystal\u2ftext.dll=Yes
+C:\WINDOWS\Crystal\u2fwks.dll=Yes
+C:\WINDOWS\Crystal\u2fwordw.dll=Yes
+C:\WINDOWS\Crystal\u2fxls.dll=Yes
+C:\WINDOWS\Crystal\u25dts.dll=Yes
+C:\WINDOWS\Crystal\u2l2000.dll=Yes
+C:\WINDOWS\Crystal\u2lbar.dll=Yes
+C:\WINDOWS\Crystal\u2lcom.dll=Yes
+C:\WINDOWS\Crystal\u2ldts.dll=Yes
+C:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+C:\WINDOWS\Crystal\u252000.dll=Yes
+\program files\seagate software\sschart\SSCSDK32.DLL=Yes
+C:\WINDOWS\system32\Mscomctl.ocx=Yes
+C:\WINDOWS\system32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\Msmask32.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSEXCL35.dll=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\mspdox35.dll=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\Vb6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Log.LDF=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Data.MDF=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminandeveloper.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminannotaris.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN DEVELOPER PERTANGGAL.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN NOTARIS PERTANGGAL.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REGISTER REALISASI DAN MONITORING.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN DEVELOPER.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN NOTARIS.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA APHT YANG BELUM DIBAYAR.rpt=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA NOTARIS YANG BELUM DIBAYAR.rpt=Yes
+
+[Package|DANA JAMINAN|Configure Registry Files]
+Applicable=No
+
+[Package|DANA JAMINAN|Configure Remote Servers]
+Applicable=No
+
+[Package|DANA JAMINAN|Install Locations]
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Dana Jaminan.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\Msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\crystl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\implode.dll=$(AppPath)
+C:\WINDOWS\system32\crpaig32.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lbar.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(AppPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+\program files\seagate software\sschart\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\mspdox35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\Vb6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Log.LDF=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Data.MDF=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminandeveloper.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminannotaris.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN DEVELOPER PERTANGGAL.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN NOTARIS PERTANGGAL.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REGISTER REALISASI DAN MONITORING.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN DEVELOPER.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN NOTARIS.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA APHT YANG BELUM DIBAYAR.rpt=$(AppPath)
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA NOTARIS YANG BELUM DIBAYAR.rpt=$(AppPath)
+
+[Package|DANA JAMINAN|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Dana Jaminan.exe=No
+C:\WINDOWS\system32\implode.dll=No
+C:\WINDOWS\Crystal\u25dts.dll=No
+C:\WINDOWS\Crystal\u2lbar.dll=No
+C:\WINDOWS\Crystal\u2ldts.dll=No
+C:\WINDOWS\Crystal\u2lsamp1.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Log.LDF=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Database\DAJAM_Data.MDF=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminandeveloper.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\Danajaminannotaris.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN DEVELOPER PERTANGGAL.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\PENCAIRAN NOTARIS PERTANGGAL.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REGISTER REALISASI DAN MONITORING.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN DEVELOPER.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REKAP DANA DITAHAN NOTARIS.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA APHT YANG BELUM DIBAYAR.rpt=No
+C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\REPORT RINCIAN BIAYA NOTARIS YANG BELUM DIBAYAR.rpt=No
+
+[Package|DANA JAMINAN|Distribution]
+Type=single
+Size=
+Title=Dana Jaminan
+
+[Package|DANA JAMINAN|IconGroups]
+Group0=Dana Jaminan
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|DANA JAMINAN|Dana Jaminan]
+Icon1="Dana Jaminan.exe"
+Title1=Dana Jaminan
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DANA JAMINAN|Package]
+PackageFolder=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\setup
+ProjectFolder=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000
+ServerSideCab=
+File1=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\setup\setup.exe
+File2=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\setup\Setup.Lst
+File3=C:\Documents and Settings\POOJA\Desktop\Dana jaminanSQLserver2000\setup\Dana Jaminan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
